@@ -3,7 +3,7 @@ import mypic from '../../image/seven.jpg'
 
 const About = () => {
     return (
-        <div className='px-10'>
+        <div className='p-10'>
             <h1 className='text-[#6FFFE9] text-3xl  mt-20 underline underline-offset-8 mb-10'> About Me</h1>
             <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap- mb-20'>
                 <div className=''>
