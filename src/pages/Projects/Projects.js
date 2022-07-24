@@ -5,11 +5,11 @@ import project3 from '../../image/project3.png'
 
 const Projects = () => {
     return (
-        <div className='p-10'>
+        <div className='md:mx-28 p-2'>
             <h1 className='text-[#6FFFE9] text-3xl underline underline-offset-8 mb-10'>Projects</h1>
            {/* <div className='grid lg:grid-cols-3 md:grid-cols-3  sm:grid-cols-1 justify-items-center gap-10 mb-20'> */}
-           <div className='flex flex-col md:flex-row gap-4'>
-                <div className='border rounded-lg p-3 shadow-2xl w-full '>
+           <div className='flex flex-col md:flex-row gap-4 '>
+                <div className='border rounded-lg p-3 shadow-2xl w-full'>
                     <div>
                         <img className='h-[180px]' src={project1}></img>
                     </div>

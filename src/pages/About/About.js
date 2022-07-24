@@ -3,9 +3,9 @@ import mypic from '../../image/seven.jpg'
 
 const About = () => {
     return (
-        <div className='p-10'>
+        <div className='md:mx-28 p-4'>
             <h1 className='text-[#6FFFE9] text-3xl  mt-20 underline underline-offset-8 mb-10'> About Me</h1>
-            <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap- mb-20'>
+            <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap- mb-20 md:justify-items-center'>
                 <div className=''>
                     <p className='w-full text-white text-xl text-justify md:mt-'>
                      <h1 className='mb-10'> Hi__</h1>
@@ -15,8 +15,8 @@ const About = () => {
                       I am also a hard worker and good at working in team ways.
                     </p>
                 </div>
-                <div>
-                    <img className='w-[500px] h-auto md:ml-24' src={mypic} />
+                <div className='md:mr-24 m:mt-0 mt-7 '>
+                    <img className='w-[500px] h-auto md:ml-24 border rounded-lg shadow-xl' src={mypic} />
 
                 </div>
 
