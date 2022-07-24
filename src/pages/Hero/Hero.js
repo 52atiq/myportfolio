@@ -10,7 +10,7 @@ const Hero = () => {
   });
  
   return (
-    <div className=' h-[600px] mt-40'>
+    <div className='mt-40'>
          
          <div className=''>
           <div className='flex items-center flex-col'>
