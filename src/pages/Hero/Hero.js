@@ -14,7 +14,7 @@ const Hero = () => {
          
          <div className=''>
           <div className='flex items-center flex-col'>
-             <h1 className='text-3xl text-slate-300 '> Hello, I'm Atiqur Rahman </h1>
+             <h1 className='text-3xl text-amber-600 font-mono '> Hi,I'm Atiqur Rahman </h1>
              <p className="text-[#6FFFE9] text-3xl">
                     <span>{text}</span>
                     <Cursor />
