@@ -10,7 +10,9 @@ const Hero = () => {
   });
  
   return (
-    <div className='mt-40'>
+    <div className='mt-40' data-aos="fade-left"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="2000">
          
          <div className=''>
           <div className='flex items-center flex-col'>

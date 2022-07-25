@@ -5,7 +5,9 @@ import project3 from '../../image/project3.png'
 
 const Projects = () => {
     return (
-        <div className='md:mx-28 p-2'>
+        <div className='md:mx-28 p-2'  data-aos="fade-up"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">
             <h1 className='text-[#6FFFE9] text-3xl underline underline-offset-8 mb-10'>Projects</h1>
            {/* <div className='grid lg:grid-cols-3 md:grid-cols-3  sm:grid-cols-1 justify-items-center gap-10 mb-20'> */}
            <div className='flex flex-col md:flex-row gap-4 '>
