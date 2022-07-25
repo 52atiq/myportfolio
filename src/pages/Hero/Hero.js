@@ -26,7 +26,7 @@ const Hero = () => {
               <a className='hover:text-[#4267B2]' href="https://www.facebook.com/atiqislambd" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
               <a  className='hover:text-[#008fdd]' href="https://www.linkedin.com/in/atiqurrahman5/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
               <a className='hover:text-[#666666]' href="https://github.com/52atiq" target="_blank"><ion-icon name="logo-github"></ion-icon> </a>
-              <a className='hover:text-[#bc2a8d]' href="https://github.com/52atiq" target="_blank"><ion-icon  name="logo-instagram"></ion-icon></a>
+              <a className='hover:text-[#bc2a8d]' href="https://www.instagram.com/atiqdev/" target="_blank"><ion-icon  name="logo-instagram"></ion-icon></a>
             </div>
          </div>
     </div>
