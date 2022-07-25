@@ -15,7 +15,7 @@ const Contact = () => {
                   
 
                         <div className="text-center text-4xl text-bold pt-5 pb-4" >
-                            <h3 className='text-amber-600 underline underline-offset-2'>Contact Me</h3>
+                            <h3 className='text-amber-600 underline underline-offset-2 font-mono'>Contact Me</h3>
                         </div>
                         <div className='text-justify'>
                             <p className='text-white text-center pb-2 text-xl'>Don't hesitate, you can contact me with any queries in your mind 🙂 </p>

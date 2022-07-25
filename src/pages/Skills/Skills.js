@@ -5,7 +5,7 @@ const Skills = () => {
         <div className='md:mx-28  p-4'  data-aos="zoom-in-up"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="2000">
-            <h1 className='text-[#6FFFE9] text-3xl underline underline-offset-8 mb-10'>Skills</h1>
+            <h1 className='text-[#6FFFE9] text-3xl underline underline-offset-8 mb-10 font-mono'>Skills</h1>
             <div className='mb-7'>
             <h3 className='text-xl text-white text-justify text-center text-left md:text-center md:mx-28'>Here are my skills and contain all the technologies, programming languages, and tools that I have learned until now. still, I am constantly 
                 learning and trying to keep learning new technology therefore I may update this section more often</h3>

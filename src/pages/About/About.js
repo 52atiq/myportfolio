@@ -6,7 +6,7 @@ const About = () => {
         <div className='md:mx-28 p-4' data-aos="zoom-in-up"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="2000">
-            <h1 className='text-[#6FFFE9] text-3xl  mt-20 underline underline-offset-8 mb-10'> About Me</h1>
+            <h1 className='text-[#6FFFE9] text-3xl  mt-20 underline underline-offset-8 mb-10 font-mono'> About Me</h1>
             <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap- mb-20 md:justify-items-center'>
                 <div className=''>
                     <p className='w-full text-white text-xl text-justify md:mt-'>
