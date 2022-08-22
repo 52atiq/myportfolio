@@ -2,6 +2,9 @@ import React from 'react';
 import project1 from '../../image/project1.png'
 import project2 from '../../image/project2.png'
 import project3 from '../../image/project3.png'
+import project4 from '../../image/project4.png'
+import project5 from '../../image/project5.png'
+import project6 from '../../image/project6.png'
 
 const Projects = () => {
     return (
@@ -10,21 +13,69 @@ const Projects = () => {
         data-aos-duration="2000">
             <h1 className='text-[#6FFFE9] text-3xl underline underline-offset-8 mb-10 font-mono'>Projects</h1>
            {/* <div className='grid lg:grid-cols-3 md:grid-cols-3  sm:grid-cols-1 justify-items-center gap-10 mb-20'> */}
-           <div className='flex flex-col md:flex-row gap-4 '>
-                <div className='border rounded-lg p-3 shadow-2xl w-full'>
+           {/* <div className='flex flex-col md:flex-row gap-4 '> */}
+           <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-5 '>
+
+           <div className='border rounded-lg p-1 shadow-2xl w-full'>
                     <div>
-                        <img className='h-[180px]' src={project1}></img>
+                        <img className='h-[180px] w-full' src={project4}></img>
                     </div>
                    
                         <div>
                             <p className='text-white text-justify'>
-                            It is a warehouse management system website , that can store products.
-                             Users can sign up and log in to this website using google and also can log in if users register by email
+                            {/* It is a Products selling website. */}
                             </p>
-                            <div className='md:flex md:mt-8 mt-3 '>
+                            <div className='flex md:mt-8 mt-3 w-full items-center justify-center'>
+                                <button className='bg-teal-500 px-2 text-white m-1'>ReactJS</button>
+                                <button className='bg-teal-500 px-2 text-white m-1'>TailwindCSS</button>
+                                {/* <button className='bg-teal-500 px-2 text-white m-1'>NodeJS</button> */}
+                                <button className='bg-teal-500 px-2 text-white m-1'>Firebase</button>
+                            </div>
+                        </div>
+                        <div className='flex justify-evenly md:mt-8 mt-3'>
+                            <button className='bg-teal-900 px-5 text-white' > <a target='_blank' href="https://motion-view-1521e.web.app/">Live</a></button>
+                            <button className='bg-teal-900 px-5 text-white' ><a target='_blank' href="https://github.com/52atiq/motion-view">Github</a></button>
+                        </div>
+                </div>
+
+
+           <div className='border rounded-lg p-1 shadow-2xl w-full'>
+                    <div>
+                        <img className='h-[180px] w-full' src={project5}></img>
+                    </div>
+                   
+                        <div>
+                            <p className='text-white text-justify'>
+                            {/* It is a Products selling website. */}
+                            </p>
+                            <div className='flex md:mt-8 mt-3 w-full items-center justify-center'>
+                                <button className='bg-teal-500 px-2 text-white m-1'>ReactJS</button>
+                                <button className='bg-teal-500 px-2 text-white m-1'>TailwindCSS</button>
+                               
+                            </div>
+                        </div>
+                        <div className='flex justify-evenly md:mt-8 mt-3'>
+                            <button className='bg-teal-900 px-5 text-white' > <a target='_blank' href="https://shopping-cart-phone.netlify.app/">Live</a></button>
+                            <button className='bg-teal-900 px-5 text-white' ><a target='_blank' href="https://github.com/52atiq/shopping-cart-phone">Github</a></button>
+                        </div>
+                </div>
+
+
+
+        
+                <div className='border rounded-lg p-1 shadow-2xl w-full'>
+                    <div>
+                        <img className='h-[180px] w-full' src={project1}></img>
+                    </div>
+                   
+                        <div>
+                            <p className='text-white text-justify'>
+                            {/* It is a warehouse management system website. */}
+                            </p>
+                            <div className='flex md:mt-8 mt-3 w-full items-center justify-center'>
                                 <button className='bg-teal-500 px-2 text-white m-1'>ReactJS</button>
                                 <button className='bg-teal-500 px-2 text-white m-1'>ExpressJS</button>
-                                <button className='bg-teal-500 px-2 text-white m-1'>NodeJS</button>
+                                {/* <button className='bg-teal-500 px-2 text-white m-1'>NodeJS</button> */}
                                 <button className='bg-teal-500 px-2 text-white m-1'>MongoDB</button>
                             </div>
                         </div>
@@ -34,43 +85,63 @@ const Projects = () => {
                         </div>
                 </div>
 
-                <div className='border rounded-lg p-3 shadow-2xl w-full'>
+                <div className='border rounded-lg p-1 shadow-2xl w-full'>
                     <div>
-                        <img className='h-[180px]' src={project2}></img>
+                        <img className='h-[180px] w-full' src={project6}></img>
                     </div>
                    
                         <div>
                             <p className='text-white text-justify'>
-                    It is a laptop parts product selling website, users can buy products and see their orders.
-                   Users and admin can sign up and log in to this website using google or email password.
-                   Admin can add products, delete products, manage products and see all given orders by users.
+                            {/* It is a warehouse management system website. */}
+                            </p>
+                            <div className='flex md:mt-8 mt-3 w-full items-center justify-center'>
+                                <button className='bg-teal-500 px-2 text-white m-1'>HTML</button>
+                                <button className='bg-teal-500 px-2 text-white m-1'>CSS</button>
+                                {/* <button className='bg-teal-500 px-2 text-white m-1'>NodeJS</button> */}
+                                <button className='bg-teal-500 px-2 text-white m-1'>Javascript</button>
+                            </div>
+                        </div>
+                        <div className='flex justify-evenly md:mt-8 mt-3'>
+                            <button className='bg-teal-900 px-5 text-white' > <a target='_blank' href="https://usocial.netlify.app/">Live</a></button>
+                            <button className='bg-teal-900 px-5 text-white' ><a target='_blank' href="https://github.com/52atiq/social-web">Github</a></button>
+                        </div>
+                </div>
+
+
+
+
+                <div className='border rounded-lg p-1 shadow-2xl w-full'>
+                    <div>
+                        <img className='h-[180px] w-full' src={project2}></img>
+                    </div>
+                   
+                        <div>
+                            <p className='text-white text-justify'>
+                    {/* It is a laptop parts product selling website */}
                                             </p>
-                            <div className='md:flex  mt-3  '>
+                            <div className='flex  md:mt-8 w-full items-center justify-center '>
                                 <button className='bg-teal-500 px-2 text-white m-1'>ReactJS</button>
                                 <button className='bg-teal-500 px-2 text-white m-1 '>ExpressJS</button>
-                                <button className='bg-teal-500 px-2 text-white m-1 '>NodeJS</button>
+                                {/* <button className='bg-teal-500 px-2 text-white m-1 '>NodeJS</button> */}
                                 <button className='bg-teal-500 px-2 text-white m-1 '>MongoDB</button>
                             </div>
                         </div>
-                        <div className='flex justify-evenly mt-3'>
+                        <div className='flex justify-evenly md:mt-8 mt-3'>
                             <button className='bg-teal-900 px-5 text-white' > <a target='_blank' href="https://p-shop-28336.web.app/">Live</a></button>
                             <button className='bg-teal-900 px-5 text-white' ><a target='_blank' href="https://github.com/52atiq/parts-shop-client">Github</a></button>
                         </div>
                 </div>
 
-                <div className='border rounded-lg p-3 shadow-2xl w-full'>
+                <div className='border rounded-lg p-1 shadow-2xl w-full'>
                     <div >
-                        <img className='h-[180px]' src={project3}></img>
+                        <img className='h-[180px] w-full' src={project3}></img>
                     </div>
                    
                         <div>
                             <p className='text-white text-justify'>
-                            It is a photography services website that serves some services.
-                             Users who can book their orders.
-                             Users can sign up and log in to this website using google, github and also can log in if users
-                            register by email.
+                            {/* It is a photography services website. */}
                             </p>
-                            <div className='md:flex md:mt-8 mt-3  '>
+                            <div className='flex  md:mt-8 w-full items-center justify-center  '>
                                 <button className='bg-teal-500 px-2 text-white m-1'>ReactJS</button>
                                 <button className='bg-teal-500 px-2 text-white m-1'>TailwindCSS</button>
                                 <button className='bg-teal-500 px-2 text-white m-1'>Firebase</button>
